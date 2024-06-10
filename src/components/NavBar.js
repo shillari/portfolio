@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
-import logo from "../img/logo_portfolio.png";
+import logo from "../img/logo.png";
+import { Github, Linkedin } from "react-bootstrap-icons";
 
 const NavBar = () => {
 
@@ -42,6 +43,10 @@ const NavBar = () => {
               duration={700}>CONTACT</Link>
           </li>
         </ul>
+        <div className="social-media">
+          <a href="https://github.com/shillari" target="_blank" ><Github size={30} color="#f5f9ff" /></a>
+          <a href="https://www.linkedin.com/in/sandy-hillari-060353165" target="_blank"><Linkedin size={30} color="#f5f9ff" /></a>
+        </div>
       </nav>
     </header>
   );

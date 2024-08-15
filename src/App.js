@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import About from './components/About';
-import Contact from './components/Contact';
+import NavBar from './components/navbar/NavBar';
+import Home from './components/home/Home';
+import Projects from './components/projects/Projects';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <NavBar />
       <main className="App">
         <Home />
-        <Projects />
         <About />
+        <Projects />
         <Contact />
       </main>
     </>

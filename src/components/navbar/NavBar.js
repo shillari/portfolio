@@ -1,20 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { Github, Linkedin } from "react-bootstrap-icons";
+
+import logo from '../../assets/img/portfolio-logo.png';
+import { FaBars } from "react-icons/fa6";
 
 const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const setClose = () => {
+    setIsOpen(false);
+  };
 
   return (
     <header className="header">
-      <nav className="navigation" role="navigation" aria-label="portfolio menu">
+      <img className="logo-img" src={logo} alt="sandy logo" />
+      <nav className={`navigation ${isOpen ? 'open' : ''}`} role="navigation" aria-label="portfolio menu">
         <ul>
-          <li className="listitem">
+          <li className="listitem" >
             <Link
               activeClass="active"
               to="home"
               spy={true}
               smooth={true}
-              duration={700}>HOME</Link>
+              duration={700} onClick={setClose}>HOME</Link>
           </li>
           <li className="listitem">
             <Link
@@ -22,7 +34,7 @@ const NavBar = () => {
               to="about"
               spy={true}
               smooth={true}
-              duration={700}>ABOUT ME</Link>
+              duration={700} onClick={setClose}>ABOUT ME</Link>
           </li>
           <li className="listitem">
             <Link
@@ -30,7 +42,7 @@ const NavBar = () => {
               to="projects"
               spy={true}
               smooth={true}
-              duration={700}>PROJECTS</Link>
+              duration={700} onClick={setClose}>PROJECTS</Link>
           </li>
           <li className="listitem">
             <Link
@@ -38,13 +50,14 @@ const NavBar = () => {
               to="contact"
               spy={true}
               smooth={true}
-              duration={700}>CONTACT</Link>
+              duration={700} onClick={setClose}>CONTACT</Link>
           </li>
         </ul>
       </nav>
-      <div className="social-media">
-        <a href="https://github.com/shillari" target="_blank" rel="noreferrer" ><Github size={30} color="#f5f9ff" /></a>
-        <a href="https://www.linkedin.com/in/sandy-hillari-060353165" target="_blank" rel="noreferrer"><Linkedin size={30} color="#f5f9ff" /></a>
+      <div className="navbar-toggle" >
+        <div className="toggle-icon" onClick={toggleMenu}>
+          <FaBars size={25} />
+        </div>
       </div>
     </header>
   );

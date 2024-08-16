@@ -13,7 +13,7 @@ const About = () => {
     <section className="section" id="about">
       <h1>Ab<span>ou</span>t me</h1>
       <div className="elevator-pitch">
-        <p>Dedicated software developer with a track record of developing, testing, debugging and maintaining critical systems. Experienced in developing backend applications and troubleshooting. Committed to delivering high-quality results under tight deadlines.
+        <p>I am a software developer with experience in building, testing, and maintaining critical systems. I’m skilled in backend development and troubleshooting and currently expanding my expertise to become a full-stack developer. I focus on delivering reliable results, even under tight deadlines.
         </p>
         <a href="/sandy-hayashi.pdf" download>Download CV</a>
       </div>

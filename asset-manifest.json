@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.39e727e4.css",
-    "main.js": "/portfolio/static/js/main.164a90dd.js",
+    "main.css": "/portfolio/static/css/main.678b9cc6.css",
+    "main.js": "/portfolio/static/js/main.760f8b20.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/moonflix-angular.png": "/portfolio/static/media/moonflix-angular.4ab1a1f37e8fe1dbde04.png",
     "static/media/moonflix-frontend.png": "/portfolio/static/media/moonflix-frontend.9215cf6f5b1fb5bcca4f.png",
+    "static/media/contact-background.png": "/portfolio/static/media/contact-background.8c92033f773713589fca.png",
     "static/media/talkie.png": "/portfolio/static/media/talkie.1ad489eb1ed64e28c19a.png",
     "static/media/portfolio_html.png": "/portfolio/static/media/portfolio_html.eadab13e01ab87fd9a89.png",
     "static/media/pokedex.png": "/portfolio/static/media/pokedex.ce505e226c054731b134.png",
@@ -14,12 +15,12 @@
     "service-worker.js": "/portfolio/service-worker.js",
     "static/media/hero-overlay-graph-lines.svg": "/portfolio/static/media/hero-overlay-graph-lines.20934e62b881a65a2bd37faacc6beba4.svg",
     "index.html": "/portfolio/index.html",
-    "main.39e727e4.css.map": "/portfolio/static/css/main.39e727e4.css.map",
-    "main.164a90dd.js.map": "/portfolio/static/js/main.164a90dd.js.map",
+    "main.678b9cc6.css.map": "/portfolio/static/css/main.678b9cc6.css.map",
+    "main.760f8b20.js.map": "/portfolio/static/js/main.760f8b20.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39e727e4.css",
-    "static/js/main.164a90dd.js"
+    "static/css/main.678b9cc6.css",
+    "static/js/main.760f8b20.js"
   ]
 }

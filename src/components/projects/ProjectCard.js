@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { Button, Overlay } from "react-bootstrap";
 import { Github } from "react-bootstrap-icons";
 import { FaCircleInfo } from "react-icons/fa6";
+import FootnoteProject from "../footer/FootnoteProject";
 
 const ProjectCard = ({ project }) => {
 
@@ -68,6 +69,17 @@ const ProjectCard = ({ project }) => {
               </>
             }
           </div>
+          {project.technologies &&
+            <>
+              <div className="card-techs">
+                {
+                  project.technologies.map(tech =>
+                    <FootnoteProject key={tech} tech={tech} />
+                  )
+                }
+              </div>
+            </>
+          }
         </>
       }
     </div >

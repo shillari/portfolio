@@ -45,9 +45,10 @@ const Contact = () => {
             <input type="text" placeholder="name" id="name" name="user_name" required />
             <label>E-mail*</label>
             <input type="email" id="email" placeholder="e-mail" name="user_email" required />
+            {/**
             <label>Phone</label>
             <input type="tel" id="tel" placeholder="ex: 000-000-0000" name="user_number"
-              pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
+              pattern="\d{3}[\-]\d{3}[\-]\d{4}" /> */}
             <label>Message*</label>
             <textarea placeholder="max 240 characters" maxLength="240" id="message" name="message" rows="4"
               cols="50" required></textarea>

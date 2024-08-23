@@ -2,6 +2,7 @@ import React from "react";
 import sandy from '../../assets/img/sandy-square.jpeg';
 import bckgImage from '../../assets/img/hero-overlay-graph-lines.svg';
 import { Github, Linkedin } from "react-bootstrap-icons";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -21,10 +22,15 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/sandy-hillari-060353165" target="_blank" rel="noreferrer"><Linkedin size={30} color="#f5f9ff" /></a>
           </div>
         </div>
-        <a href="#projects" className="work-arrow">
-          <p>Check out my work</p>
+        <Link
+          className="work-arrow"
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          duration={700}><p>Check out my work</p>
           <div className="arrow"></div>
-        </a>
+        </Link>
       </div>
     </section>
   );

@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e89976a9.css",
-    "main.js": "/portfolio/static/js/main.8ec651c4.js",
+    "main.css": "/portfolio/static/css/main.ee4a8afa.css",
+    "main.js": "/portfolio/static/js/main.54e779ea.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/moonflix-angular.png": "/portfolio/static/media/moonflix-angular.4ab1a1f37e8fe1dbde04.png",
     "static/media/moonflix-frontend.png": "/portfolio/static/media/moonflix-frontend.9215cf6f5b1fb5bcca4f.png",
     "static/media/contact-background.png": "/portfolio/static/media/contact-background.8c92033f773713589fca.png",
+    "static/media/sandy-photo.jpg": "/portfolio/static/media/sandy-photo.4b3b12996a436a69f04d.jpg",
     "static/media/talkie.png": "/portfolio/static/media/talkie.1ad489eb1ed64e28c19a.png",
     "static/media/portfolio_html.png": "/portfolio/static/media/portfolio_html.eadab13e01ab87fd9a89.png",
     "static/media/pokedex.png": "/portfolio/static/media/pokedex.ce505e226c054731b134.png",
-    "static/media/sandy-square.jpeg": "/portfolio/static/media/sandy-square.8a88965b1beb9589d9a1.jpeg",
     "static/media/moonflix-backend.png": "/portfolio/static/media/moonflix-backend.dab063ff1eb083e4a691.png",
     "static/media/portfolio-logo.png": "/portfolio/static/media/portfolio-logo.e427d777b2abe949a939.png",
     "static/media/meet.png": "/portfolio/static/media/meet.fe1798913623b2997f4e.png",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/media/hero-overlay-graph-lines.svg": "/portfolio/static/media/hero-overlay-graph-lines.20934e62b881a65a2bd37faacc6beba4.svg",
     "index.html": "/portfolio/index.html",
-    "main.e89976a9.css.map": "/portfolio/static/css/main.e89976a9.css.map",
-    "main.8ec651c4.js.map": "/portfolio/static/js/main.8ec651c4.js.map",
+    "main.ee4a8afa.css.map": "/portfolio/static/css/main.ee4a8afa.css.map",
+    "main.54e779ea.js.map": "/portfolio/static/js/main.54e779ea.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e89976a9.css",
-    "static/js/main.8ec651c4.js"
+    "static/css/main.ee4a8afa.css",
+    "static/js/main.54e779ea.js"
   ]
 }

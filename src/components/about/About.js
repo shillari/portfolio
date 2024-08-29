@@ -15,7 +15,7 @@ const About = () => {
       <div className="elevator-pitch">
         <p>I am a software developer with experience in building, testing, and maintaining critical systems. I’m skilled in backend development and troubleshooting and currently expanding my expertise to become a full-stack developer. I focus on delivering reliable results, even under tight deadlines.
         </p>
-        <a href="/hayashi-sandy-resume.pdf" download>Download CV</a>
+        <a href={`${process.env.PUBLIC_URL}/hayashi-sandy-resume.pdf`} download>Download CV</a>
       </div>
       <div className='about-cards'>
         <AboutCard

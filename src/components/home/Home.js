@@ -1,5 +1,5 @@
 import React from "react";
-import sandy from '../../assets/img/sandy-square.jpeg';
+import sandy from '../../assets/img/sandy-photo.jpg';
 import bckgImage from '../../assets/img/hero-overlay-graph-lines.svg';
 import { Github, Linkedin } from "react-bootstrap-icons";
 import { Link } from "react-scroll";

@@ -28,7 +28,7 @@ const Impressum = () => {
         <p>
           <strong>Kontakt:</strong>
           <br />
-          E-Mail: <a href='mailto:sandy_hmh2@hotmail.com'>sandy_hmh2 @ hotmail DOT com</a>
+          E-Mail: <a href='mailto:sandy_hmh2@hotmail.com'>sandy_hmh2 (@) hotmail (DOT) com</a>
           <br />
         </p>
         <br />

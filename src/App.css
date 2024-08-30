@@ -175,7 +175,9 @@ HOME PAGE
   height: 100vh;
   z-index: 2;
   position: relative;
+  flex-wrap: wrap;
   text-align: center;
+  padding-top: 65px;
 }
 
 .home-text {
@@ -704,6 +706,17 @@ IMPRESSUM
     align-items: center;
     justify-items: center;
     height: 70px;
+  }
+}
+
+@media (max-height: 660px) {
+  .work-arrow {
+    display: none;
+  }
+
+  .self-photo {
+    width: 150px;
+    height: 150px;
   }
 }
 

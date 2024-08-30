@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3ee66462.css",
-    "main.js": "/portfolio/static/js/main.e17f976c.js",
+    "main.css": "/portfolio/static/css/main.8d334cd3.css",
+    "main.js": "/portfolio/static/js/main.961ae778.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/moonflix-angular.png": "/portfolio/static/media/moonflix-angular.4ab1a1f37e8fe1dbde04.png",
     "static/media/moonflix-frontend.png": "/portfolio/static/media/moonflix-frontend.9215cf6f5b1fb5bcca4f.png",
@@ -16,12 +16,12 @@
     "service-worker.js": "/portfolio/service-worker.js",
     "static/media/hero-overlay-graph-lines.svg": "/portfolio/static/media/hero-overlay-graph-lines.20934e62b881a65a2bd37faacc6beba4.svg",
     "index.html": "/portfolio/index.html",
-    "main.3ee66462.css.map": "/portfolio/static/css/main.3ee66462.css.map",
-    "main.e17f976c.js.map": "/portfolio/static/js/main.e17f976c.js.map",
+    "main.8d334cd3.css.map": "/portfolio/static/css/main.8d334cd3.css.map",
+    "main.961ae778.js.map": "/portfolio/static/js/main.961ae778.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ee66462.css",
-    "static/js/main.e17f976c.js"
+    "static/css/main.8d334cd3.css",
+    "static/js/main.961ae778.js"
   ]
 }

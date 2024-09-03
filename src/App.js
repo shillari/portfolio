@@ -15,19 +15,20 @@ function App() {
       <main className="App">
         <Routes>
           <Route
-            exact
             path='/'
             element={<Navigate to='/portfolio' replace />} />
-          <Route path='/portfolio' element={
-            <>
-              <NavBar />
-              <Home />
-              <About />
-              <Projects />
-              <Contact />
-              <Footer />
-            </>
-          } />
+          <Route
+            exact
+            path='/portfolio' element={
+              <>
+                <NavBar />
+                <Home />
+                <About />
+                <Projects />
+                <Contact />
+                <Footer />
+              </>
+            } />
           <Route path='/impressum' element={
             <Impressum />
           } />

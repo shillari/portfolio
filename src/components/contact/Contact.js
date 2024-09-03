@@ -18,8 +18,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_7rxv1xn', 'template_h6a0qrr', form.current, {
-      publicKey: 'GT688vWf2h4YznF5c',
+    emailjs.sendForm(`${process.env.SERVICE_FORM}`, `${process.env.TEMPLATE_FORM}`, form.current, {
+      publicKey: `${process.env.PUBLIC_KEY}`
     })
       .then(
         () => {

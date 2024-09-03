@@ -14,9 +14,11 @@ function App() {
     <Router>
       <main className="App">
         <Routes>
-          <Route path='/'
+          <Route
+            exact
+            path='/'
             element={<Navigate to='/portfolio' replace />} />
-          <Route exact path='/portfolio' element={
+          <Route path='/portfolio' element={
             <>
               <NavBar />
               <Home />

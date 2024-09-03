@@ -351,7 +351,7 @@ PROJECTS PAGE
 *******************************************************
  */
 #projects {
-  height: auto;
+  height: 100vh;
 }
 
 .project-summary {
@@ -384,6 +384,12 @@ PROJECTS PAGE
   text-align: justify;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
   height: auto;
+}
+
+.project-cards .card:hover {
+  transform: scale(1.07);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
 }
 
 .project-cards .card,
@@ -482,12 +488,12 @@ CONTACT PAGE
  */
 #contact {
   padding-top: 65px;
-  height: auto;
+  height: 100vh;
 }
 
 .contact-content {
   width: 100vw;
-  height: auto;
+  height: 100%;
   background: linear-gradient(to right, var(--primary-color), #505d68b2, #163b59b2);
   background-image: url('assets/img/contact-background.png');
   background-position: center;

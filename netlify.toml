@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "/portfolio"
   status = 200

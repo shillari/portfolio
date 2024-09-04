@@ -457,6 +457,10 @@ PROJECTS PAGE
   cursor: pointer;
 }
 
+.case-study-icon {
+  margin-left: 8px;
+}
+
 .footnote-container {
   display: flex;
   align-items: center;
@@ -479,6 +483,41 @@ PROJECTS PAGE
 .card-techs > * {
   margin-right: 10px;
   margin-top: 10px;
+}
+
+/* 
+*******************************************************
+CASE STUDY PAGE
+*******************************************************
+*/
+.casestudy-title {
+  padding-left: 50px;
+}
+
+.case-study {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+}
+
+.casestudy-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  padding: 50px;
+}
+
+.casestudy-text {
+  font-size: larger;
+}
+
+.casestudy-img {
+  float: right;
+  width: 50%;
+  height: 50%;
+  margin: 50px;
 }
 
 /* 
@@ -671,6 +710,19 @@ IMPRESSUM
     grid-row: 1 / 3;
     grid-column: 2 / 3;
   }
+}
+
+@media (max-width: 1015px) {
+  .case-study {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .casestudy-content {
+    width: 100vw;
+  }
+
 }
 
 @media (max-width: 925px) {

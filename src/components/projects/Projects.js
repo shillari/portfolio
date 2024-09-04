@@ -34,6 +34,7 @@ const projects = [
     description: 'Moonflix Frontend is the client-side component of the moonflix app, built using React and designed to interact with the existing server-side code (REST API and database).',
     github: 'https://github.com/shillari/moonflix_frontend',
     deployment: 'https://main--moonflix-app.netlify.app/login',
+    casestudy: '/casestudy-moonflix',
     technologies: ['Javascript', 'React', 'HTML', 'CSS', 'Redux']
   },
   {

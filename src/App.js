@@ -8,6 +8,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Impressum from './components/impressum/Impressum';
+import CaseStudyMoonflix from './components/casestudy/CaseStudyMoonflix';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
             } />
           <Route path='/impressum' element={
             <Impressum />
+          } />
+          <Route path='/casestudy-moonflix' element={
+            <CaseStudyMoonflix />
           } />
         </Routes>
       </main>

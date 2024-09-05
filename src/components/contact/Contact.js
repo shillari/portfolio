@@ -17,7 +17,9 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(`${process.env.SERVICE_FORM}`)
+    console.log(`${process.env.TEMPLATE_FORM}`)
+    console.log(`${process.env.PUBLIC_KEY}`)
     emailjs.sendForm(`${process.env.SERVICE_FORM}`, `${process.env.TEMPLATE_FORM}`, form.current, {
       publicKey: `${process.env.PUBLIC_KEY}`
     })

@@ -19,7 +19,7 @@ const Home = () => {
           <p>Software Developer</p>
           <div className="social-media">
             <a href="https://github.com/shillari" target="_blank" rel="noreferrer" ><Github size={30} color="#f5f9ff" /></a>
-            <a href="https://www.linkedin.com/in/sandy-hillari-060353165" target="_blank" rel="noreferrer"><Linkedin size={30} color="#f5f9ff" /></a>
+            <a href="https://www.linkedin.com/in/sandy-hayashi/" target="_blank" rel="noreferrer"><Linkedin size={30} color="#f5f9ff" /></a>
           </div>
         </div>
         <Link

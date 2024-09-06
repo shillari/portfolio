@@ -20,15 +20,6 @@ const projects = [
   },
   {
     id: 2,
-    name: 'Moonflix Backend',
-    image: moonflixbackendImg,
-    description: 'Moonflix backend is the server-side component of a “movies” web application. This web application provides users with access to information about different movies, directors, and genres. Users can sign up, update their personal information, and create a list of their favorite movies.',
-    github: 'https://github.com/shillari/moonflix_backend',
-    deployment: 'https://moonflix-97228dafe8d1.herokuapp.com/documentation.html',
-    technologies: ['Javascript', 'Node', 'HTML', 'CSS', 'Express', 'MongoDB']
-  },
-  {
-    id: 3,
     name: 'Moonflix Frontend',
     image: moonflixfrontendImg,
     description: 'Moonflix Frontend is the client-side component of the moonflix app, built using React and designed to interact with the existing server-side code (REST API and database).',
@@ -36,6 +27,15 @@ const projects = [
     deployment: 'https://main--moonflix-app.netlify.app/login',
     casestudy: '/casestudy-moonflix',
     technologies: ['Javascript', 'React', 'HTML', 'CSS', 'Redux']
+  },
+  {
+    id: 3,
+    name: 'Moonflix Backend',
+    image: moonflixbackendImg,
+    description: 'Moonflix backend is the server-side component of a “movies” web application. This web application provides users with access to information about different movies, directors, and genres. Users can sign up, update their personal information, and create a list of their favorite movies.',
+    github: 'https://github.com/shillari/moonflix_backend',
+    deployment: 'https://moonflix-97228dafe8d1.herokuapp.com/documentation.html',
+    technologies: ['Javascript', 'Node', 'HTML', 'CSS', 'Express', 'MongoDB']
   },
   {
     id: 4,
